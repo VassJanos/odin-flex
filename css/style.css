@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.part-one {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex: 1;
+}
+
+.header-content {
+    flex:    3;
+}
+
