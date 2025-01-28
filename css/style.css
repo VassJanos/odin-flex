@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 ul {
@@ -9,18 +10,117 @@ ul {
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .part-one {
     display: flex;
     flex-direction: column;
+    height: 600px;
+    background-color: #1F2937;
+}
+
+.part-two {
+    height: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 380px;
+    padding-right: 380px;
+}
+
+.part-three {
+    height: 450px;
+    border: dotted black 4px;
+}
+
+.part-four {
+    height: 410px;
+    border: dotted black 4px;
+}
+
+.part-five {
+    height: 130px;
+    border: dotted black 4px;
 }
 
 .header {
-    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 380px;
+    padding-right: 380px;
+}
+
+.logo {
+    font-size: 24px;
+    color:  #F9FAF8;
+    margin: 10px;
+    align-content: center;
+
+}
+
+.links,
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    margin: 10px;
 }
 
 .header-content {
-    flex:    3;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 380px;
+    padding-right: 380px;
+    padding-top: 100px;
+
 }
 
+.header-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-image img {
+    width: 500px;
+    height: auto;
+}
+
+.left-side {
+    width: 400px;
+}
+
+.signup-btn {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    width: 100px;
+    height: 30px;
+    border-radius: 9px;
+    margin: 10px;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+}
+
+.content-title {
+    
+}
+
+.card-list,
+.card-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
